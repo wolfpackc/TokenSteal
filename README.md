@@ -123,10 +123,3 @@ La impersonación de un hilo y el token primario de un proceso son conceptos dis
 
 La protección PPL puede impedir abrir determinados procesos o sus tokens. Por ese motivo el código prueba varios candidatos en lugar de depender de uno solo.
 
-## Release
-
-El binario precompilado se publicará en **Releases** para mantener el repositorio centrado en el código fuente. Si prefieres máxima trazabilidad, puedes compilar el proyecto directamente a partir de `src/tokensteal.c`.
-
-## Aviso
-
-Este proyecto documenta mecanismos de seguridad de Windows con fines educativos. Utilízalo únicamente en sistemas propios o expresamente autorizados.
